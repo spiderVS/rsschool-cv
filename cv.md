@@ -11,9 +11,9 @@
 ---
 ### **OBJECTIVE**
 
-> My goal may seem unrealistic: that is to start a career as a Junior Front-end Developer in a dynamically developing company, to understand all ins and outs, participating in real-world development, to do quality work and grow professionally to Team Lead 😉
->
-> Now I am at the very beginning of the journey and it’s going to be long. And I also know that learning will never end, which is really great. Technologies advance rapidly, the world does not stand still, and I want to move forward as well! **Movement is life!**
+My goal may seem unrealistic: that is to start a career as a Junior Front-end Developer in a dynamically developing company, to understand all ins and outs, participating in real-world development, to do quality work and grow professionally to Team Lead 😉
+
+Now I am at the very beginning of the journey and it’s going to be long. And I also know that learning will never end, which is really great. Technologies advance rapidly, the world does not stand still, and I want to move forward as well! **Movement is life!**
 
 **My motto:** *Never stop what you have achieved.*
 
@@ -31,7 +31,6 @@
 
 **`HTML` / `CSS` / `SASS` / `BEM` / `Markdown` / `JavaScript` / `ES6` / `TypeScript` / `Git` / `Node.js` / `Webpack` / `Eslint` / `Code review` / `Graphic design`**
 
----
 - [x] Knowledge of basic design patterns, KISS, SOLID, DRY principles and their compliance;
 - [x] Excellent knowledge of HTML5/CSS, understanding of the principles of semantic page layout, understanding the BEM methodology;
 - [x] Excellent knowledge of JavaScript (ES6), basic knowledge of TypeScript;
