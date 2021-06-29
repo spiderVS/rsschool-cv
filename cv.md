@@ -36,4 +36,32 @@
 - [x] Excellent knowledge of HTML5/CSS, understanding of the principles of semantic page layout, understanding the BEM methodology;
 - [x] Excellent knowledge of JavaScript (ES6), basic knowledge of TypeScript;
 - [x] Basic knowledge of Node.js;
-- [x] Experience with Webpack, CSS-preprocessors (Sass);
+- [x] Experience with Webpack, CSS-preprocessors (Sass).
+
+---
+### **CODE EXAMPLES**
+
+```js
+let numReserve = [];
+while (numReserve.length < 12) {
+  let randomNumber = Math.ceil(Math.random() * 1000);
+  let found = false;
+  for (let i = 0; i < numReserve.length; i++){
+    if (numReserve[i] === randomNumber){
+      found = true;
+      break;
+    }
+  }
+  if (!found) {numReserve[numReserve.length] = randomNumber;}
+}
+```
+---
+### **PROFESSIONAL EXPERIENCE**
+
+1. 🦊 [Wildlife](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/wildlife/)
+2. 🐼 [Online Zoo](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/online-zoo/pages/main/)
+3. 🎹 [Virtual-piano](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/virtual-piano/)
+4. 📸 [Photo filter](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/photo-filter/)
+5. 🎰 [Memory game](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/match-match-game/) - *in development*
+
+... to be continued 🙃
