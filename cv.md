@@ -65,3 +65,19 @@ while (numReserve.length < 12) {
 5. 🎰 [Memory game](https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/match-match-game/) - *in development*
 
 ... to be continued 🙃
+
+---
+### **EDUCATION**
+
+ - 🚀 ***RSSchool 2021*** - *in progress*
+
+- 🏆 [**HTML-Academy achievements**](https://htmlacademy.ru/profile/id1827281)
+
+- 📜 [**Polotsk State University**](https://www.psu.by/en/) - *Radio Engineering Faculty* - **Product design engineer**
+
+
+---
+### **LANGUAGES**
+
+- **Russian (native)**
+- **English (B1 Intermediate - CEFR)** - [***EF SET Certificate link***](https://www.efset.org/cert/buq4Js)
