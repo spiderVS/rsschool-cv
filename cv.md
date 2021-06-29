@@ -25,3 +25,15 @@
 - learning new things with pleasure;
 - like challenging but interesting tasks;
 - additional extensive experience in industrial 3D modeling, graphic design, microcontrollers.
+
+---
+### **SKILLS**
+
+**`HTML` / `CSS` / `SASS` / `BEM` / `Markdown` / `JavaScript` / `ES6` / `TypeScript` / `Git` / `Node.js` / `Webpack` / `Eslint` / `Code review` / `Graphic design`**
+
+---
+- [x] Knowledge of basic design patterns, KISS, SOLID, DRY principles and their compliance;
+- [x] Excellent knowledge of HTML5/CSS, understanding of the principles of semantic page layout, understanding the BEM methodology;
+- [x] Excellent knowledge of JavaScript (ES6), basic knowledge of TypeScript;
+- [x] Basic knowledge of Node.js;
+- [x] Experience with Webpack, CSS-preprocessors (Sass);
