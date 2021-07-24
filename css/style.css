@@ -46,9 +46,9 @@ body {
   min-height: 1250px;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black;
+  background-color: #020202;
   border-radius: 10px 0 0 10px;
-  color: #b6b1b1;
+  color: #878884;
 }
 
 .photo {
@@ -57,7 +57,7 @@ body {
 }
 
 .left-col .heading-section {
-  color: #ffffff;
+  color: #fafafa;
 }
 
 .heading-section {
@@ -92,6 +92,10 @@ mark {
   position: relative;
   flex-basis: 60%;
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #020202;
 }
 
 .cv-resume {
@@ -108,7 +112,6 @@ mark {
 .presentation > p {
   color: #797979;
   font-size: 22px;
-  margin-bottom: 5px;
 }
 
 .name {
@@ -135,6 +138,27 @@ mark {
 
 .experience-list li {
   line-height: 1.8;
-  margin-left: 15px;
-  list-style: decimal;
+  margin-left: 10px;
+}
+
+.skills-short-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-short-list > li {
+  padding: 2px 5px ;
+  margin: 0 7px 5px 0;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ff7300;
+}
+
+.skills-list {
+  margin-top: 15px;
+}
+
+.skills-list > li {
+  line-height: 1.8;
+  list-style: inside;
 }
