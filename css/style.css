@@ -65,25 +65,27 @@ body {
 
 .right-col {
   flex-basis: 60%;
+  padding-top: 50px;
 }
 
-.presentation ~ p {
-  font-size: 20px;
-  margin-bottom: 10px;
+.presentation > p {
+  color: #797979;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 .name {
   text-transform: uppercase;
-  font-size: 50px;
-  margin-bottom: 10px;
+  font-size: 48px;
+  margin-bottom: 8px;
 }
 
 .prof {
   text-transform: uppercase;
   font-size: 28px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .hr {
-  border: 3px solid #ff7300;
+  border: 2px solid #ff7300;
 }
