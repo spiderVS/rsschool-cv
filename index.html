@@ -103,6 +103,24 @@
             </ul>
           </section>
 
+          <section class="code-examples">
+            <h3 class="heading-section">Code examples</h3>
+            <div class="code-box">
+              <pre><code>  <span class="violet">let</span> <span class="green">numReserve</span> = [];
+  <span class="violet">while</span> (<span class="blue">numReserve</span>.<span class="green">length</span> &lt; <span class="red">12</span>) {
+    <span class="violet">let</span> <span class="green">randomNumber</span> = <span class="blue">Math</span>.<span class="green">ceil</span>(<span class="blue">Math</span>.<span class="green">random</span>() * <span class="red">1000</span>);
+    <span class="violet">let</span> <span class="green">found</span> = <span class="red">false</span>;
+    <span class="violet">for</span> (<span class="violet">let</span> <span class="green">i</span> = <span class="red">0</span>; <span class="green">i</span> &lt; <span class="blue">numReserve</span>.<span class="green">length</span>; <span class="green">i</span>++) {
+      <span class="violet">if</span> (<span class="blue">numReserve</span>[<span class="green">i</span>] === <span class="green">randomNumber</span>) {
+        <span class="green">found</span> = <span class="red">true</span>;
+        <span class="violet">break</span>;
+      }
+    }
+    <span class="violet">if</span> (!<span class="green">found</span>) { <span class="blue">numReserve</span>[<span class="blue">numReserve</span>.<span class="green">length</span>] =&shy; <span class="green">randomNumber</span>; }
+  }</code></pre>
+            </div>
+          </section>
+
         </div>
 
       </main>

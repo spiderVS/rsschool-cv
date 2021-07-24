@@ -91,7 +91,7 @@ mark {
 .right-col {
   position: relative;
   flex-basis: 60%;
-  padding-top: 50px;
+  padding: 50px 25px 30px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -155,10 +155,41 @@ mark {
 }
 
 .skills-list {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .skills-list > li {
   line-height: 1.8;
-  list-style: inside;
+  /* list-style: inside; */
+}
+
+.skills-list > li:before {
+  color: #797979;
+  content: "☑";
+  padding-right: 10px;
+ }
+
+.code-box {
+  font-size: 16px;
+  margin: 0 20px 0 0;
+  padding: 20px 10px;
+  background-color: #272727;
+  color: #fafafa;
+  border-radius: 10px;
+}
+
+.violet {
+  color: #db69f1;
+}
+
+.blue {
+  color: #76a4fa;
+}
+
+.green {
+  color: #67e778;
+}
+
+.red {
+  color: #f77a7a;
 }
