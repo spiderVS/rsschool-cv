@@ -23,7 +23,7 @@ body {
 .cv-wrapper {
   width: 1024px;
   margin: 20px auto;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 5px -3px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -35,27 +35,52 @@ body {
 }
 
 .section {
-  padding: 20px 50px 30px 50px;
+  padding: 0 50px 0 50px;
   font-size: 16px;
 }
 
 .left-col {
+  padding: 0 0 30px 0;
   flex-basis: 35%;
+  display: flex;
+  min-height: 1250px;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: black;
-  border-radius: 20px 0 0 18px;
+  border-radius: 10px 0 0 10px;
   color: #b6b1b1;
 }
 
 .photo {
   width:100%;
-  border-radius: 18px 0 0 0;
+  border-radius: 10px 0 0 0;
+}
+
+.left-col .heading-section {
+  color: #ffffff;
 }
 
 .heading-section {
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 22px;
   margin-bottom: 15px;
+}
+
+.contacts-list {
+  line-height: 2;
+}
+
+.contacts-list-link > b {
   color: #ffffff;
+}
+
+.description .motto {
+  margin-top: 20px;
+}
+
+mark {
+  background-color: #ffffff;
 }
 
 .summary-list li {
@@ -64,23 +89,37 @@ body {
 }
 
 .right-col {
+  position: relative;
   flex-basis: 60%;
   padding-top: 50px;
+}
+
+.cv-resume {
+  position: absolute;
+  background-color: #ff7300;
+  border-radius: 0 10px 0 0;
+  color:#ffffff;
+  padding: 10px 20px;
+  font-size: 22px;
+  top: 0;
+  right: 0;
 }
 
 .presentation > p {
   color: #797979;
   font-size: 22px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .name {
+  letter-spacing: 1px;
   text-transform: uppercase;
-  font-size: 48px;
-  margin-bottom: 8px;
+  font-size: 54px;
+  margin-bottom: 5px;
 }
 
 .prof {
+  letter-spacing: 5px;
   text-transform: uppercase;
   font-size: 28px;
   margin-bottom: 12px;
@@ -88,4 +127,14 @@ body {
 
 .hr {
   border: 2px solid #ff7300;
+}
+
+.presentation {
+  margin-bottom: 30px;
+}
+
+.experience-list li {
+  line-height: 1.8;
+  margin-left: 15px;
+  list-style: decimal;
 }
