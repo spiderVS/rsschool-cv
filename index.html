@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <title>Anatol Dauliud - CV</title>
+  </head>
+
+  <body>
+    <div class="cv-wrapper">
+      <main class="main">
+        <div class="left-col">
+          <figure>
+            <img src="./img/photo.jpg" alt="Anatol Dauliud photo" class="photo">
+          </figure>
+
+          <section class="contact section">
+            <h3 class="heading-section">Contact details</h3>
+            <ul class="contacts-list">
+              <li class="contacts-list-link"><b>E-mail:</b>
+                <a href="mailto:fuzzy003@gmail.com"><b>fuzzy003@gmail.com</b></a>
+              </li>
+              <li class="contacts-list-link"><b>Tel:</b>
+                <a href="tel:+375298840202"><b>+375 (29) 884-02-02</b></a>
+              </li>
+              <li class="contacts-list-link"><b>GitHub:</b>
+                <a href="https://github.com/spiderVS"><b>spiderVS</b></a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="about-me section">
+            <h3 class="heading-section">About me</h3>
+            <div class="description">
+              <p>My goal may seem unrealistic: that is to start a career as a Junior Front-end Developer in a dynamically developing company, to understand all ins and outs, participating in real-world development, to do quality work and grow professionally to Team Lead :)</p>
+              <p class="motto"><mark><b>My motto:</b></mark> <em>Never stop what you have achieved.</em></p>
+            </div>
+          </section>
+
+          <section class="summary section">
+            <h3 class="heading-section">Summary</h3>
+            <ul class="summary-list">
+              <li>a result-oriented frontend-developer</li>
+              <li>developed several web applications</li>
+              <li>learning new things with pleasure</li>
+              <li>like challenging but interesting tasks</li>
+              <li>additional extensive experience in industrial 3D modeling, graphic design, microcontrollers</li>
+            </ul>
+          </section>
+
+        </div>
+
+        <div class="right-col">
+          <div class="cv-resume"><b>CV RESUME</b></div>
+          <section class="presentation section-right">
+            <p>Hello, Everyone</p>
+            <h1 class="name">Anatol Dauliud</h1>
+            <h2 class="prof">Front end developer</h2>
+            <hr class="hr">
+          </section>
+
+          <section class="experience section-right">
+            <h3 class="heading-section">Professional experience</h3>
+            <ul class="experience-list">
+              <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/wildlife/"><b>🦊 Wildlife</b></a></li>
+              <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/online-zoo/pages/main/"><b>🐼 Online Zoo</b></a></li>
+              <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/virtual-piano/"><b>🎹 Virtual-piano</b></a></li>
+              <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/photo-filter/"><b>📸 Photo filter</b></a></li>
+              <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/match-match-game/"><b>🎰 Memory game</b></a><em>- in development</em></li>
+              <li>... to be continued ...</li>
+            </ul>
+          </section>
+
+          <section class="skills section-right">
+            <h3 class="heading-section">Skills</h3>
+            <ul class="skills-short-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>BEM</li>
+              <li>Markdown</li>
+              <li>JavaScript</li>
+              <li>ES6</li>
+              <li>TypeScript</li>
+              <li>Git</li>
+              <li>Node.js</li>
+              <li>Webpack</li>
+              <li>Eslint</li>
+              <li>Code review</li>
+              <li>Graphic design</li>
+            </ul>
+            <details>
+              <summary><strong>More info</strong></summary>
+              <ul class="skills-list">
+                <li>Knowledge of basic design patterns, KISS, SOLID, DRY principles and their compliance</li>
+                <li>Excellent knowledge of HTML5/CSS, understanding of the principles of semantic page layout, understanding the BEM methodology</li>
+                <li>Excellent knowledge of JavaScript (ES6), basic knowledge of TypeScript</li>
+                <li>Basic knowledge of Node.js</li>
+                <li>Experience with Webpack, CSS-preprocessors (Sass)</li>
+              </ul>
+            </details>
+          </section>
+
+          <section class="code-examples section-right">
+            <h3 class="heading-section">Code examples</h3>
+            <div class="code-box">
+              <pre><code>  <span class="violet">let</span> <span class="green">numReserve</span> = [];
+  <span class="violet">while</span> (<span class="blue">numReserve</span>.<span class="green">length</span> &lt; <span class="red">12</span>) {
+    <span class="violet">let</span> <span class="green">randomNumber</span> = <span class="blue">Math</span>.<span class="green">ceil</span>(<span class="blue">Math</span>.<span class="green">random</span>() * <span class="red">1000</span>);
+    <span class="violet">let</span> <span class="green">found</span> = <span class="red">false</span>;
+    <span class="violet">for</span> (<span class="violet">let</span> <span class="green">i</span> = <span class="red">0</span>; <span class="green">i</span> &lt; <span class="blue">numReserve</span>.<span class="green">length</span>; <span class="green">i</span>++) {
+      <span class="violet">if</span> (<span class="blue">numReserve</span>[<span class="green">i</span>] === <span class="green">randomNumber</span>) {
+        <span class="green">found</span> = <span class="red">true</span>;
+        <span class="violet">break</span>;
+      }
+    }
+    <span class="violet">if</span> (!<span class="green">found</span>) { <span class="blue">numReserve</span>[<span class="blue">numReserve</span>.<span class="green">length</span>] =&shy; <span class="green">randomNumber</span>; }
+  }</code></pre>
+            </div>
+          </section>
+
+          <section class="education section-right">
+            <h3 class="heading-section">Education</h3>
+            <ul class="education-list">
+              <li><b>🚀 RSSchool 2021q3</b>  <i>- in progress</i></li>
+              <li><a href="https://htmlacademy.ru/profile/id1827281"><b>🏆 HTML-Academy achievements</b></a></li>
+              <li><a href="https://www.psu.by/en/"><b>📜 Polotsk State University</b></a> - <i>Radio Engineering Faculty</i> - <b>Product design engineer</b></li>
+            </ul>
+          </section>
+
+          <section class="lang section-right">
+            <h3 class="heading-section">Languages</h3>
+            <ul class="lang-list">
+              <li><b>Russian (native)</b></li>
+              <li><b>English (B1 Intermediate - CEFR)</b> - <a href="https://www.efset.org/cert/buq4Js"><b>EF SET Certificate link</b></a></li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <ul class="footer-items">
+          <li><a class="github" href="https://github.com/spiderVS" target="_blank" rel="noopener noreferrer">spiderVS</a></li>
+          <li><b>2021</b></li>
+          <li><a class="rsschool" href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="Курс «JavaScript/Front-end - RSSchool»"></a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
