@@ -26,7 +26,6 @@ body {
 .cv-wrapper {
   min-width: 320px;
   max-width: 1024px;
-  /* width: 1024px; */
   margin: 20px auto;
   border-radius: 10px;
   box-shadow: 5px -3px 25px rgba(0, 0, 0, 0.5);
