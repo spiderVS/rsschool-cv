@@ -238,7 +238,7 @@ details {
   width: 120px;
   height: 45px;
   padding-left: 45px;
-  background-image: url('/img/github.svg');
+  background-image: url('../img/github.svg');
   background-size: 35px;
   background-repeat: no-repeat;
   background-position: left center;
