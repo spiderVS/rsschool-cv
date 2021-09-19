@@ -8,18 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/cv.svg">
     <title>Anatol Dauliud - CV</title>
   </head>
 
   <body>
     <div class="cv-wrapper">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link"><b>Contacts</b></a></li>
+            <li class="nav-item"><a href="#about" class="nav-link"><b>About me</b></a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link"><b>Summary</b></a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link"><b>Experience</b></a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link"><b>Skills</b></a></li>
+            <li class="nav-item"><a href="#code" class="nav-link"><b>Code examples</b></a></li>
+            <li class="nav-item"><a href="#education" class="nav-link"><b>Education</b></a></li>
+            <li class="nav-item"><a href="#lang" class="nav-link"><b>Languages</b></a></li>
+          </ul>
+        </nav>
+      <header/>
       <main class="main">
         <div class="left-col">
           <figure>
             <img src="./img/photo.jpg" alt="Anatol Dauliud photo" class="photo">
           </figure>
 
-          <section class="contact section">
+          <section class="contact section" id="contacts">
             <h3 class="heading-section">Contact details</h3>
             <ul class="contacts-list">
               <li class="contacts-list-link"><b>E-mail:</b>
@@ -34,7 +49,7 @@
             </ul>
           </section>
 
-          <section class="about-me section">
+          <section class="about-me section" id="about">
             <h3 class="heading-section">About me</h3>
             <div class="description">
               <p>My goal may seem unrealistic: that is to start a career as a Junior Front-end Developer in a dynamically developing company, to understand all ins and outs, participating in real-world development, to do quality work and grow professionally to Team Lead :)</p>
@@ -42,7 +57,7 @@
             </div>
           </section>
 
-          <section class="summary section">
+          <section class="summary section" id="summary">
             <h3 class="heading-section">Summary</h3>
             <ul class="summary-list">
               <li>a result-oriented frontend-developer</li>
@@ -64,7 +79,7 @@
             <hr class="hr">
           </section>
 
-          <section class="experience section-right">
+          <section class="experience section-right" id="experience">
             <h3 class="heading-section">Professional experience</h3>
             <ul class="experience-list">
               <li><a href="https://rolling-scopes-school.github.io/spidervs-JSFE2021Q1/wildlife/"><b>🦊 Wildlife</b></a></li>
@@ -79,7 +94,7 @@
             </ul>
           </section>
 
-          <section class="skills section-right">
+          <section class="skills section-right" id="skills">
             <h3 class="heading-section">Skills</h3>
             <ul class="skills-short-list">
               <li>HTML</li>
@@ -109,10 +124,10 @@
             </details>
           </section>
 
-          <section class="code-examples section-right">
+          <section class="code-examples section-right" id="code">
             <h3 class="heading-section">Code examples</h3>
             <div class="code-box">
-              <pre><code>  <span class="violet">let</span> <span class="green">numReserve</span> = [];
+              <pre><code class="code">  <span class="violet">let</span> <span class="green">numReserve</span> = [];
   <span class="violet">while</span> (<span class="blue">numReserve</span>.<span class="green">length</span> &lt; <span class="red">12</span>) {
     <span class="violet">let</span> <span class="green">randomNumber</span> = <span class="blue">Math</span>.<span class="green">ceil</span>(<span class="blue">Math</span>.<span class="green">random</span>() * <span class="red">1000</span>);
     <span class="violet">let</span> <span class="green">found</span> = <span class="red">false</span>;
@@ -127,7 +142,7 @@
             </div>
           </section>
 
-          <section class="education section-right">
+          <section class="education section-right" id="education">
             <h3 class="heading-section">Education</h3>
             <ul class="education-list">
               <li><b>🚀 RSSchool JS/FE 2021q3</b>  - in progress ⏳</li>
@@ -139,7 +154,7 @@
             </ul>
           </section>
 
-          <section class="lang section-right">
+          <section class="lang section-right" id="lang">
             <h3 class="heading-section">Languages</h3>
             <ul class="lang-list">
               <li><b>Russian (native)</b></li>
