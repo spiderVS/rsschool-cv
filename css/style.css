@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  transition: all 0.3s ease-out;
 }
 
 li {
@@ -31,12 +33,12 @@ body {
 }
 
 .cv-wrapper {
+  display: flex;
+  flex-direction: column;
   min-width: 320px;
   max-width: 1024px;
   margin: 20px auto;
-  /* border-radius: 10px; */
   box-shadow: 5px -3px 25px rgba(0, 0, 0, 0.5);
-  background-color: #ffffff;
 }
 
 .nav {
@@ -91,13 +93,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #020202;
-  /* border-radius: 10px 0 0 0; */
   color: #979797;
 }
 
 .photo {
   width:100%;
-  /* border-radius: 10px 0 0 0; */
 }
 
 .left-col .heading-section {
@@ -140,7 +140,6 @@ mark {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   color: #020202;
 }
 
@@ -152,7 +151,6 @@ mark {
 .cv-resume {
   position: absolute;
   background-color: #ff7300;
-  /* border-radius: 0 10px 0 0; */
   color:#ffffff;
   padding: 10px 20px;
   font-size: 22px;
@@ -184,8 +182,41 @@ mark {
 }
 
 .experience-list li {
-  line-height: 1.8;
-  margin-left: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.experience-list li:hover .projects {
+  transform: rotate(0.01turn);
+  opacity: 0.8;
+}
+
+.heading-prj {
+  padding: 0 5px 0 10px;
+  width: 215px;
+  height: auto;
+  color: #ff7300;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: 1px solid #c0bdbd;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+  transform: rotate(-0.007turn);
+}
+
+.heading-prj p {
+  color: #363636;
+  font-size: 12px;
+}
+
+.projects {
+  max-width: 500px;
+  width:100%;
+  border: 1px solid #797979;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .skills-short-list {
@@ -269,7 +300,6 @@ details {
   padding: 10px;
   background-color: #020202;
   border-top: 3px solid #fafafa;
-  border-radius: 0 0 10px 10px;
 }
 
 .footer-items {
