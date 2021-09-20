@@ -1,3 +1,9 @@
+const toggleButton = document.querySelector('.toggle-menu');
+const navBar = document.querySelector('.navbar');
+toggleButton.addEventListener('click', function () {
+	navBar.classList.toggle('toggle');
+});
+
 console.log (
   `
   Приветствую тебя, проверяющий!
@@ -45,6 +51,7 @@ console.log (
   ☑ CV выполнено на английском языке +10
 
   ☑ выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка +10
+  Link: https://github.com/spiderVS/rsschool-cv/pull/4
 
   ☑ есть видеорезюме CV на английском языке. Видеорезюме встроено в страницу CV как видео. Продолжительность видео 4:29 (3-5 минут (±15 секунд)). В описание видео на YouTube добавлена ссылка на его транскрипцию на английском языке в документе Google Docs. +10
 
