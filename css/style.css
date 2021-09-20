@@ -294,6 +294,17 @@ details {
   padding-right: 10px;
 }
 
+.self-intro {
+  width: calc(100% / 10 * 9);
+}
+
+.video {
+  width: 100%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: hidden;
+}
+
 .footer {
   color: #fafafa;
   font-size: 18px;
