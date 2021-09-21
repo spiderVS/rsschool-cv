@@ -141,12 +141,7 @@ body {
 }
 
 .heading-section-name {
-  color: #fafafa;
-  text-decoration: underline;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: 26px;
-  margin-bottom: 15px;
+  display: none;
 }
 
 .heading-section {
@@ -387,6 +382,7 @@ details {
   padding: 5px;
 }
 
+
 @media (max-width: 860px) {
 
   .cv-wrapper {
@@ -467,6 +463,16 @@ details {
     font-size: 16px;
     margin-top: 30px;
     scroll-margin-top: 2em;
+  }
+
+  .heading-section-name {
+    display: initial;
+    color: #fafafa;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 15px;
   }
 
 }
