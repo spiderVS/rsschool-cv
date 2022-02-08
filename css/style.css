@@ -159,8 +159,8 @@ body {
   color: #ffffff;
 }
 
-.description .motto {
-  margin-top: 20px;
+.description p {
+  margin-bottom: 15px;
 }
 
 mark {
@@ -296,30 +296,9 @@ details {
   font-size: 14px;
   margin: 0 20px 0 0;
   padding: 20px 10px;
-  background-color: #272727;
-  color: #fafafa;
+  background-color: #fff7e6;
+  border: 1px solid rgb(187, 184, 184);
   border-radius: 10px;
-}
-
-.code {
-  white-space: pre-wrap;
-  word-break: break-all;
-}
-
-.violet {
-  color: #db69f1;
-}
-
-.blue {
-  color: #76a4fa;
-}
-
-.green {
-  color: #67e778;
-}
-
-.red {
-  color: #f77a7a;
 }
 
 .education-list > li,
@@ -381,7 +360,6 @@ details {
   width: 100px;
   padding: 5px;
 }
-
 
 @media (max-width: 860px) {
 
