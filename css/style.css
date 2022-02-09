@@ -293,6 +293,7 @@ details {
  }
 
 .code-box {
+  overflow-x: scroll;
   font-size: 14px;
   margin: 0 20px 0 0;
   padding: 20px 10px;
