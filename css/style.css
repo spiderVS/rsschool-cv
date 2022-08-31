@@ -221,12 +221,12 @@ mark {
   border: 2px solid #ff7300;
 }
 
-.experience-list li {
+.projects-list li {
   margin-bottom: 30px;
   position: relative;
 }
 
-.experience-list li:hover .projects {
+.projects-list li:hover .projects {
   transform: rotate(0.01turn);
   opacity: 0.8;
 }
@@ -292,23 +292,27 @@ details {
   padding-right: 10px;
  }
 
-.code-box {
-  overflow-x: scroll;
-  font-size: 14px;
-  margin: 0 20px 0 0;
-  padding: 20px 10px;
-  background-color: #fff7e6;
-  border: 1px solid rgb(187, 184, 184);
-  border-radius: 10px;
+.experience-list {
+  margin-bottom: 30px;
+}
+
+.stack {
+  margin-left: 23px;
+}
+
+.position {
+  margin-bottom: 10px;
 }
 
 .education-list > li,
-.lang-list > li {
+.lang-list > li,
+.experience-list > li {
   line-height: 1.8;
 }
 
 .education-list > li:before,
-.lang-list > li:before {
+.lang-list > li:before,
+.experience-list > li:before {
   color: #797979;
   content: "☑";
   padding-right: 10px;
